@@ -1,0 +1,26 @@
+[
+  {
+    "id": "agent_001",
+    "name": "Travel Booking Agent",
+    "description": "AI agent that helps users search and book flights.",
+    "objective": "Book flights based on customer requirements.",
+    "tools": [
+      "search_flights",
+      "book_flight",
+      "cancel_booking"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "agent_002",
+    "name": "Customer Support Agent",
+    "description": "AI agent that handles customer support queries.",
+    "objective": "Resolve customer issues and provide accurate information.",
+    "tools": [
+      "search_orders",
+      "create_ticket",
+      "refund_status"
+    ],
+    "status": "active"
+  }
+]

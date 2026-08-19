@@ -1,2 +1,29 @@
-# Auto detect text files and perform LF normalization
+# Auto-detect text files and normalize line endings
 * text=auto
+
+# Python files
+*.py text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# JSON files
+*.json text eol=lf
+
+# YAML files
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Configuration files
+*.env text eol=lf
+
+# Images and other binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+# Ignore generated files in GitHub language statistics
+*.pyc linguist-generated=true
